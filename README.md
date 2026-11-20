@@ -50,3 +50,13 @@ Si escribes algo que no es un número entero positivo, o un número fuera del ra
 - Condiciones `if`, `elif` y `else`
 - Ciclos `while`
 - Contadores y números aleatorios (`random`)
+
+## Estrategia para jugar 
+ 
+Una buena estrategia es comenzar probando el número 
+que se encuentra a la mitad del rango. 
+Según la pista MAYOR o MENOR, puedes descartar 
+aproximadamente la mitad de los números posibles 
+en cada intento. 
+
+Este procedimiento se conoce como búsqueda binaria. 
